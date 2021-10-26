@@ -1,0 +1,16 @@
+#No es posible colocar mas de n contenedores uno encima del otro
+#No hay  ́area para mas de m pilas de contenedores
+#Cada contenedor tiene formato Numero/NombreEmpresa
+#1 Generar estado inicial del puerto seco (Aqui se solicita n y m)
+#2 Imprimir estado del puerto seco
+#3 Ubicar un contenedor
+#4 Incluir un nuevo contenedor
+#5 Retirar un contenedor
+#6 Cerrar jornada laboral
+
+def menu():
+    print("\n¿Qué desea hacer?\n")
+    print("\n[1] Generar estado inicial del puerto seco")
+    print("[2] Incluir un nuevo contenedor.")
+    print("[3] Retirar un contenedor.")
+    print("[4] Cerrar jornada laboral.")
